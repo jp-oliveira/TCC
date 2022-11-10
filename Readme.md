@@ -1,1 +1,1 @@
-Primeiro teste usando git. Estou fazendo o primeiro projeto.
+Projeto de TCC de João Pedro Oliveira. Foi desenvolvido um site para pesquisa de músicas e locações de filmes e séries. Ao pesquisar sobre uma música, serão retornados todos os filmes e séries em que essa música foi reproduzida. O mesmo se aplica às locações.
