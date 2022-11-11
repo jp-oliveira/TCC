@@ -1,0 +1,235 @@
+body {
+	/* padding: 50px; */
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	padding: 0;
+	
+	--background-color: #9e9999;
+	background: url(/images/fundo3.png);
+	--background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+a {
+	color: #00B7FF;
+}
+h1,h2,h3,p{
+	color:#f5f5f5;
+	/* font-family: monospace; */
+}
+
+label {
+    display: block;
+    font: .9rem 'Abel', sans-serif;
+	color:#f5f5f5;
+}
+
+input[type='submit']{
+    margin-top: 1rem;
+    border: 1px solid #94a2af;
+    width: 8%;
+    height: 20px;
+    background-color: #94a2af;
+    border-radius: 5px;
+    /*font-size: 18px;*/
+    font-family: 'Abel', sans-serif;
+    color: #f5f5f5;
+
+}
+
+input[type='text'],input[type='number']{
+	border: 1px solid #6f6f6f;
+    width: 30%;
+    height: 25px;
+    font-family: 'Abel', sans-serif;
+    padding-left: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+select {
+    border: 1px solid #efefef;
+    width: 20%;
+	height: 30px;
+    /*padding: 7px 0 7px 0;*/
+    transition: border 0.4s;
+    font-size: 12px;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    background-color: white !important;
+    font-family: 'Roboto-Light', sans-serif;
+    max-width: 100%;
+}
+
+.navbar-brand-index {
+	display: block;
+	height: auto;
+	width: 100%;
+}
+
+#main-box {	
+	background-color: rgba(50,50,50,0.5);
+	border-radius: 15px;
+}
+
+#main-box > p {
+	font-size: 18px;
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+	color: #f5f5f5;
+	margin-bottom: 5vh;
+}
+
+#main-box h2 {
+	margin-top: 10vh;	
+	font-family: 'Abel', sans-serif;
+	color: white;
+}
+
+#main-box .input-box {
+	border: 1px solid #6f6f6f;
+	width: 40%;
+	height: 40px;
+	font-family: 'Abel', sans-serif;
+	padding-left: 20px;
+	font-weight: bold;	
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+#main-box .secondary-box {
+	width: 40%;
+	height: 40px;	
+}
+
+#main-box .forgot-password {		
+	height: 40px;	
+}
+
+#main-box .forgot-password p, #main-box .login-btn p {	
+	font-size: 18px;
+	line-height: 40px;
+	font-family: 'Abel', sans-serif;
+	color: #f5f5f5;
+}
+
+#main-box a:hover {	
+    text-decoration: none;
+    border-bottom: 10px solid green;
+}
+
+#main-box .login-btn-space {	
+	height: 40px;	
+}
+
+/*
+.btn_excluir{
+	
+}
+*/
+.login-btn {
+	border: 1px solid #94a2af;
+	width: 8%;
+	height: 18px;
+	background-color: #94a2af;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: 'Abel', sans-serif;
+	color: #f5f5f5;
+}
+
+#main-box .login-btn:hover {
+	background-color: #495561;
+}
+
+.navbar-brand-index > img {
+	display: block;
+	margin-right: auto !important;
+   	margin-left: auto;
+   	margin-top: 10px;
+}
+
+.navbar img {
+	line-height: 50px;
+	height: 80px;
+	margin-right: 30px;
+}
+#menu-btn-div li span {
+	position: relative;
+	right: 0px;
+	padding-right: 14px;
+	padding-left: 10px;
+}
+
+#menu-btn-div {
+	position: absolute;
+	top: 60px;
+	right: 30px;
+	background-color: #01040e;
+	border: 1px solid #ffffff;
+	border-radius: 4px;
+	height: auto;
+	width: 200px;
+	list-style-type: none;
+}
+
+#menu-btn-div a {
+	text-decoration: none;
+}
+
+#menu-btn-div li {
+	cursor: pointer;
+	position: relative;
+	color: white;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family:'Titillium Web', sans-serif;
+}
+
+#menu-btn-div li:hover {
+	background-color: #0e2c36;	
+}
+
+#menu-btn {
+	display: inline;
+	padding: 8px;
+	border-radius: 4px;
+	position: absolute;
+	top: 25px;
+	right: 30px;
+	border: 1px solid #ffffff;
+	/*background-color: #22677e;*/
+}
+
+#menu-btn:hover {
+	background-color: #0e2c36;
+}
+
+#menu-btn p { 
+	font-family:'Titillium Web', sans-serif;
+	font-size: 1.2em;	
+	position: relative;
+	color: white;
+	display: inline-block;
+	margin: 0;
+}
+
+#menu-btn .icon-bar {
+	display: block;
+	width: 22px;
+	height: 4px;
+	margin-bottom: 4px;
+	margin-top: 4px;  
+	border-radius: 1px;
+	background-color: white;
+}
+
+#menu-btn span { 
+	position: relative;
+	color: white;
+}

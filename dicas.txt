@@ -1,0 +1,18 @@
+- node pode trabalhar de forma assíncrona, ou seja, uma tarefa pode ser "deixada fazendo" enquanto o
+programa principal segue rodando
+- await tem que estar dentro de um async.
+- async indica que a função é assincrona.
+- await manda esperar a execução daquela linha para só depois seguir adiante
+-.then() depois de uma função é o equivalente ao ultimo argumento da função - callback. só é executado
+-quando a função termina de ser executada. útil para chamadas que demandam muito tempo do computador,
+-como por exemplo leitura e escrita (essa principalmente) no disco.
+-a diferença é que .then() é chamado de promise
+
+https://mongoosejs.com/docs/ 
+
+tirei do traz usuarios a função speak
+
+const db = require("../usuarios");
+const user_Model = db.Mongoose.model('nome_do_modelo', db.userSchema,'CONTROLE_ACESSO');
+const todos_usuarios = await user_Model.find();
+res.render('index', {todos_usuarios});
